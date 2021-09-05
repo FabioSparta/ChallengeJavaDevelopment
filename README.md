@@ -13,6 +13,16 @@
 
   > Assignment of a unique ID to http requests and inclusion of said ID in the response's Http Headers
 
+## How to Run:
+  > 1. Run the command 'docker-compose up' inside RabbitMq's folder to launch it locally
+  > 2. Run the Springboot project
+  > In case that RabbitMq's queues are not created do the following: 
+    > 2. Open in your browser: http://localhost:15672/#/
+    > 3 Login: user:guest ; pw:guest
+    > Go to the "Exchanges tab" and add a new exchange named "challenge.rpc"
+    > Go to the "Queues tab" and add a new queue named "challenge.rpc.requests"
+    > Bind the exchange to the queue
+
 ## Some References: 
   > RabbitMQ implementation based on: https://www.rabbitmq.com/tutorials/tutorial-six-spring-amqp.html
 
