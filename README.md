@@ -18,7 +18,7 @@
 
   > 2. Run the Springboot project
 
-  > In case that RabbitMq's queues are not created do the following: 
+  > In case that RabbitMq's queues are not created, do the following: 
 
     > Open in your browser: http://localhost:15672/#/ 
     > Login -> user:guest ; pw:guest
