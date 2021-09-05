@@ -20,8 +20,8 @@
 
   > In case that RabbitMq's queues are not created do the following: 
 
-    > 2. Open in your browser: http://localhost:15672/#/
-    > 3 Login: user:guest ; pw:guest
+    > Open in your browser: http://localhost:15672/#/ 
+    > Login -> user:guest ; pw:guest
     > Go to the "Exchanges tab" and add a new exchange named "challenge.rpc"
     > Go to the "Queues tab" and add a new queue named "challenge.rpc.requests"
     > Bind the exchange to the queue
