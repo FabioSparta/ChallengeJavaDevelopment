@@ -2,7 +2,7 @@
   > Developer: Fábio Carmelino (Software Engineer - Graduate from the University of Aveiro)
   
 ## Main Objectives: 
-  > Development of a REST API for simple mathematical operations with 2 operands (Sum/Subtractions/Multiplication/Division)
+  > Development of a REST API for simple mathematical operations with 2 operands (Sum/Subtraction/Multiplication/Division)
 
   > Project must be separeted in atleast 2 modules (REST API and Calculator)
 
