@@ -1,14 +1,12 @@
 package com.example.witchallenge.services.server;
 import com.example.witchallenge.entities.Operation;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 
 
-@Service
 public class Calculator {
 
     public static final int PRECISION = 10;

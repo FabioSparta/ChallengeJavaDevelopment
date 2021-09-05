@@ -18,9 +18,6 @@ public class CalculatorRestController {
     @Autowired
     private Client client;
 
-    @Autowired
-    Calculator calculator;
-
     HashMap<String,BigDecimal> answer = new HashMap<>();
 
     @GetMapping("/sum")
