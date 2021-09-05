@@ -1,0 +1,25 @@
+<!DOCTYPE configuration>
+
+<configuration>
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
+    
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%X{process-id}" />
+        </Console>
+    </Appenders>
+    
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>common</pattern>
+        </encoder> 
+    </appender>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>log/access.log</file>
+        <encoder>
+            <pattern>combined</pattern>
+        </encoder>
+    </appender>
+    <appender-ref ref="CONSOLE" />
+    <appender-ref ref="FILE" />
+</configuration>

@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "logback.access",
+      "type": "java.lang.String",
+      "description": "Description for logback.access."
+  }
+] }
